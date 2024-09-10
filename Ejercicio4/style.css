@@ -1,0 +1,27 @@
+
+div{
+    margin-top: 3rem;
+    background-color: white;
+    border-style: solid;
+    border-radius: 1%;
+}
+
+#header{
+    text-align: center;
+}
+
+
+
+.body{
+    background-color: slategray;
+}
+
+.tabla{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+#aside{
+
+    background-color: white;
+}
+
