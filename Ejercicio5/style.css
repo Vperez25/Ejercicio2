@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorTarjeta{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.img{
+    width: 100%;
+    height: 200px;
+}
+.contenidoTarjeta{
+
+}
+
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonTarjeta{
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
