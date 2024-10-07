@@ -6,3 +6,4 @@
 - [Ejercicio #4 - Formato de texto, fuentes, fondos y border](./Ejercicio4)
 - [Ejercicio #5 - Tarjeta](./Ejercicio5)
 - [Ejercicio #6 - Header Sticky](./Ejercicio6)
+- [Ejercicio #7 - Formulario con estilos, pseudoelementos y pseudoclases](./Ejercicio7)
