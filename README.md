@@ -7,4 +7,4 @@
 - [Ejercicio #5 - Tarjeta](./Ejercicio5)
 - [Ejercicio #6 - Header Sticky](./Ejercicio6)
 - [Ejercicio #7 - Formulario con estilos, pseudoelementos y pseudoclases](./Ejercicio7)
-- [Ejercicio #7 -  Sitio con tarjetas (Flex)](./Ejercicio8)
+- [Ejercicio #8 -  Sitio con tarjetas (Flex)](./Ejercicio8)
