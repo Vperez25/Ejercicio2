@@ -4,5 +4,5 @@
 - [Ejercicio #2 - Listas, Multimedia y tablas](./Ejercicio2)
 - [Ejercicio #3 - Formularios y metadatos](./Ejercicio3)
 - [Ejercicio #4 - Formato de texto, fuentes, fondos y border](./Ejercicio4)
-- [Ejercicio #4 - Tarjeta](./Ejercicio5)
-- [Ejercicio #4 - Header Sticky](./Ejercicio6)
+- [Ejercicio #5 - Tarjeta](./Ejercicio5)
+- [Ejercicio #6 - Header Sticky](./Ejercicio6)
