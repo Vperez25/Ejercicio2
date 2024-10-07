@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ContactUsStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <a href="index.html"><img src="img/logo2.png" class="logo"></a>
+    <button class="boton">Shop</button>
+    <button class="boton"><a href="ContactUs.html">About Us</a></button>
+    <button class="boton">Contact</button>
+    <button class="boton"><img src="img/cart.png" class="carrito"></button>
+</header>
+<main >
+    <form action="#" method="post" class="main">
+        <h1>Contact</h1>
+
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Your Name" required>
+
+        <label for="email">E-mail Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your E-mail" required>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a subject</option>
+            <option value="Sales">Sales</option>
+            <option value="Products">Products</option>
+            <option value="Shipping">Shipping</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="mensaje">Message:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tell us about it" required></textarea>
+
+        <button class="formButton" type="submit">Send</button>
+    </form>
+
+</main>
+
+
+</body>
+</html>
