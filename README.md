@@ -8,3 +8,5 @@
 - [Ejercicio #6 - Header Sticky](./Ejercicio6)
 - [Ejercicio #7 - Formulario con estilos, pseudoelementos y pseudoclases](./Ejercicio7)
 - [Ejercicio #8 -  Sitio con tarjetas (Flex)](./Ejercicio8)
+- [Ejercicio #9 -  Variables y funciones](./Ejercicio9)
+- 
