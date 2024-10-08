@@ -1,0 +1,168 @@
+:root{
+    --primary-color: #6E633D;
+    --secondary-color: #14281D;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+}
+
+a:visited{
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-items: start;
+    padding: 5rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    background: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.8);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: var(--font-size-medium);
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.boton {
+    color: white;
+    margin: 3rem;
+    margin-bottom: 0;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: var(--font-size-large);
+
+}
+
+.logo {
+    filter: invert(1);
+    width: 100px;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.carrito {
+    filter: invert(1);
+    width: 3rem;
+}
+
+
+
+.contenedorTarjeta{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img{
+
+    height: 200px;
+    border-radius: 5px;
+}
+.h2{
+    margin-top: 0;
+
+}
+
+
+.contenedorBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.botonTarjeta{
+    width: 150px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+footer{
+    margin: 8rem 0 0 0;
+    padding: 2rem;
+    background: #355834;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    color: white;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons{
+    width: 4rem;
+}
